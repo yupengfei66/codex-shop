@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.npm-cache/
+*.local
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime data
+*.log
+logs/
+*.pid
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
